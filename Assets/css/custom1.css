@@ -291,6 +291,7 @@ h5 {
     margin-bottom: 10px;
     box-shadow: 0 0 15px 3px #00000047;
     transition: all 0.3s ease-out;
+    text-align: center;
 }
 
 .footerBoxes:hover {
@@ -302,7 +303,7 @@ h5 {
     color: rgb(112 112 112);
     font-weight: bolder;
     font-size: 14px;
-    text-align: start;
+    text-align: center;
     line-height: 0ch;
 }
 
@@ -337,6 +338,10 @@ h5 {
     --bg-color: #27ae60;
     --text-color-hover: #ffffff;
     --box-shadow-color: #27ae60;
+}
+
+.IconfitMid {
+    margin-left: 20px;
 }
 
 
@@ -578,3 +583,30 @@ h5 {
 
 
 /* <== buttonS */
+
+
+/* SliderBTn ==> */
+
+.SlideBtn1 {
+    height: 114px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    margin-bottom: 11px;
+}
+
+.SlideBtn1:hover {
+    transform: translateY(-5px) scale(0.7) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
+    z-index: 5;
+}
+
+
+/* <== SliderBtn */
