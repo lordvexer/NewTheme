@@ -194,7 +194,7 @@ h5 {
     margin-top: 20px;
 }
 
-#chk {
+#chk, #chk_forget, #chk_register {
     display: none;
 }
 
@@ -289,10 +289,10 @@ h5 {
 #chk:checked~.ForgetPass label {
     transform: scale(1);
 }
-
-#chk:checked~.ForgetPass label {
+/* 
+#chk:checked~.ForgetPass input {
     transform: scale(.6);
-}
+} */
 
 .Signup label {
     color: #ffffff;
@@ -300,17 +300,17 @@ h5 {
     margin-top: 63px;
 }
 
-#chk2:checked~.Signup {
-    transform: translateY(-500px);
+#chk_register:checked~.Signup {
+    transform: translateY(-1030px);
 }
 
-#chk2:checked~.Signup label {
+#chk_register:checked~.Signup label {
     transform: scale(1);
 }
-
-#chk2:checked~.Signup label {
+/* 
+#chk_register:checked~.Signup input {
     transform: scale(.6);
-}
+} */
 
 
 /* Header ==> */
