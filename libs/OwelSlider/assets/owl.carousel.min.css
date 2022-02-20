@@ -54,7 +54,7 @@
     -webkit-touch-callout: none;
     width: 165px;
     margin-left: -2px;
-    background: azure;
+    background: rgb(255, 255, 255);
     border-radius: 9px;
     margin-top: 8px;
 }

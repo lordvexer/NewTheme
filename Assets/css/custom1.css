@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(255, 255, 255);
 }
 
 .row {
@@ -33,151 +33,10 @@ h5 {
     margin-top: 20px;
 }
 
-
-/* Login*/
-
-
-/* 
-#LoginForm {
-    z-index: 8;
-    margin-top: 100px;
-}
-
-.modal {
-    text-align: center;
-}
-
-.background1 {
-    width: 430px;
-    height: 520px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-}
-
-.background1 .shape1 {
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.shape1:first-child {
-    background: linear-gradient( #1845ad, #23a2f6);
-    left: -13px;
-    top: -56px;
-}
-
-
-.shape1:last-child {
-    background: linear-gradient( to right, #ff512f, #f09819);
-    right: -30px;
-    bottom: -80px;
-}
-
-.Form1 {
-    height: 520px;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.13);
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-    padding: 50px 35px;
-}
-
-.Form1 * {
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    letter-spacing: 0.5px;
-    outline: none;
+.form-control {
     border: none;
+    padding-right: 20px;
 }
-
-.Form1 h3 {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 42px;
-    text-align: center;
-}
-
-.label1 {
-    display: block;
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.input1 {
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 300;
-    z-index:9;
-}
-
-::placeholder {
-    color: #e5e5e5;
-}
-
-.button1 {
-    margin-top: 50px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #080710;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index:9;
-    
-}
-
-.social {
-    margin-top: 30px;
-    display: flex;
-}
-
-.social div {
-    background: red;
-    width: 150px;
-    border-radius: 3px;
-    padding: 5px 10px 10px 5px;
-    background-color: rgba(255, 255, 255, 0.27);
-    color: #eaf0fb;
-    text-align: center;
-}
-
-.social div:hover {
-    background-color: rgba(255, 255, 255, 0.47);
-}
-
-.social .fb {
-    margin-right: 26px;
-}
-
-.social i {
-    margin-right: 4px;
-}
-
-.modal-dialog {
-    margin-top: 350px;
-}
-.Fpass{
-    color: #1845ad;
-    font-weight: bolder;
-} */
 
 .show {
     z-index: 7;
@@ -186,7 +45,7 @@ h5 {
 .LoginModal {
     width: 350px;
     height: 500px;
-    background: rgba(124, 124, 124, 0.75);
+    background: rgba(255, 255, 255, 0.75);
     overflow: hidden;
     backdrop-filter: blur(5px);
     border-radius: 10px;
@@ -194,7 +53,9 @@ h5 {
     margin-top: 20px;
 }
 
-#chk, #chk_forget, #chk_register {
+#chk,
+#chk_forget,
+#chk_register {
     display: none;
 }
 
@@ -289,10 +150,6 @@ h5 {
 #chk:checked~.ForgetPass label {
     transform: scale(1);
 }
-/* 
-#chk:checked~.ForgetPass input {
-    transform: scale(.6);
-} */
 
 .Signup label {
     color: #ffffff;
@@ -307,10 +164,6 @@ h5 {
 #chk_register:checked~.Signup label {
     transform: scale(1);
 }
-/* 
-#chk_register:checked~.Signup input {
-    transform: scale(.6);
-} */
 
 
 /* Header ==> */
@@ -435,10 +288,9 @@ h5 {
 .Notif1 {
     height: 470px;
     background-color: #515151;
-    border-radius: 5px;
-    height: 570px;
+    border-radius: 6px;
+    height: 567px;
     margin-bottom: 20px;
-    box-shadow: 0px 3px 7px 1px #000000;
     transition: all 0.3s ease-out;
 }
 
@@ -450,10 +302,9 @@ h5 {
 .Notif2 {
     height: 470px;
     background-color: #515151;
-    border-radius: 5px;
-    height: 570px;
+    border-radius: 6px;
+    height: 567px;
     margin-bottom: 20px;
-    box-shadow: 0px 3px 7px 1px #000000;
     transition: all 0.3s ease-out;
 }
 
@@ -848,7 +699,6 @@ h5 {
 
 .SlideBtn1 {
     height: 135px;
-    background: rgba(255, 255, 255, 0);
     border-radius: 6px;
     overflow: hidden;
     display: flex;
@@ -880,44 +730,13 @@ h5 {
     background: var(--bg-color-light);
 }
 
+.SlideBtn1 h5 {
+    color: #6aa3d1;
+}
+
 .SlideBtn1:hover h5 {
-    color: var(--text-color-hover);
+    color: #1b74bb
 }
-
-.SlideBtn1:active {
-    transform: scale(1) translateZ(0);
-    box-shadow: 0 15px 24px rgba(255, 255, 255, 0.11), 0 15px 24px var(--box-shadow-color);
-}
-
-.SlideBtn1 p {
-    font-size: 17px;
-    color: #4C5656;
-    margin-top: 15px;
-    z-index: 1000;
-    transition: color 0.3s ease-out;
-}
-
-
-/* .SlideBtn1 {
-    height: 114px;
-    background: #fff;
-    border-radius: 6px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    margin-bottom: 11px;
-}
-
-.SlideBtn1:hover {
-    transform: translateY(-5px) scale(0.7) translateZ(0);
-    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
-    z-index: 5;
-} */
 
 
 /* <== SliderBtn */
