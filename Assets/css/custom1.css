@@ -43,7 +43,6 @@ h5 {
 }
 
 .LoginModal {
-    width: 350px;
     height: 500px;
     background: rgba(255, 255, 255, 0.75);
     overflow: hidden;
@@ -204,14 +203,14 @@ h5 {
 /* NavBar */
 
 .FitNav {
-    margin-top: 75px;
+    margin-top: 57px;
 }
 
 
 /* <== NavBar */
 
 .navbarDetails {
-    box-shadow: 0px 4px 4px 0px #00000038;
+    box-shadow: 0px 0px 3px 0px #00000038
 }
 
 .ChangeLNG {
