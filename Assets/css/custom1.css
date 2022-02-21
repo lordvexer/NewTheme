@@ -248,6 +248,15 @@ h5 {
     z-index: 1;
 }
 
+.MiddleHtmlblonk {
+    background: linear-gradient( 30deg, rgb(241, 197, 107) 0%, rgba(243, 191, 18, 1) 100%);
+    border-radius: 6px;
+    padding: 17px 30px 6px 30px;
+    margin-top: 15px;
+    z-index: 1;
+    min-height: 155px;
+}
+
 .Slider {
     background-color: #ffffff;
     border-radius: 5px;
@@ -739,3 +748,11 @@ h5 {
 
 
 /* <== SliderBtn */
+
+
+/* English lang */
+
+.en p h5 {
+    font-size: 15px!important;
+    font-family: 'Courier New', Courier, monospace;
+}
