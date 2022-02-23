@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('/Assets/imgs/Pattern.svg ');
+    background-image: url('/img/Pattern.svg ');
     font-family: 'B Farnaz', tahoma, Arial;
 }
 
@@ -69,7 +69,7 @@ h5 {
 }
 
 .Loginlabel {
-    color: #ffffff;
+    color: #666565;
     font-size: 1.3em;
     justify-content: center;
     display: flex;
@@ -244,7 +244,6 @@ h5 {
     background: linear-gradient( 30deg, rgb(241, 197, 107) 0%, rgba(243, 191, 18, 1) 100%);
     border-radius: 6px;
     padding: 17px 30px 6px 30px;
-    margin-top: 15px;
     z-index: 1;
 }
 
@@ -288,9 +287,8 @@ h5 {
     background-color: #EBEBEB;
     border-radius: 5px;
     height: auto;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
     padding: 30px;
-    margin-top: 15px;
 }
 
 .Notif1 {
@@ -410,7 +408,13 @@ h5 {
     height: auto;
     border-radius: 6px;
     padding: 30px;
-    margin-top: 15px;
+    margin-top: 5px;
+}
+
+.footerBoxes a p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #27ae60!important;
 }
 
 .footerBoxes {
