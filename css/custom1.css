@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('/img/Pattern.svg ');
+    /* background-image: url('/img/Pattern.svg '); */
     font-family: 'B Farnaz', tahoma, Arial;
 }
 
@@ -411,6 +411,11 @@ h5 {
     margin-top: 5px;
 }
 
+.footerbg h6 {
+    color: #4a4a4a;
+    word-wrap: break-word;
+}
+
 .footerBoxes a p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -419,18 +424,19 @@ h5 {
 
 .footerBoxes {
     background-color: #ffffff;
-    height: 220px;
+    height: 230px;
     border-radius: 6px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     box-shadow: 0 0 15px 3px #00000047;
     transition: all 0.3s ease-out;
     text-align: center;
+    z-index: 10;
 }
 
 .footerBoxes:hover {
     transform: translateY(-5px);
-    z-index: 100;
+    z-index: 10;
 }
 
 .FooterItems {
@@ -438,7 +444,22 @@ h5 {
     font-weight: bolder;
     font-size: 14px;
     text-align: center;
-    line-height: 0ch;
+    /* line-height: 0ch; */
+}
+
+.Footer_icon {
+    width: 60px;
+    justify-content: center;
+    margin-top: -40px;
+    z-index: 11;
+    background: rgb(110, 109, 109);
+    border-radius: 50%;
+}
+
+.copyRfooter {
+    color: #383838;
+    text-align: center;
+    font-size: small;
 }
 
 
