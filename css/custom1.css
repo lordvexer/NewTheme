@@ -6,6 +6,13 @@
     src: url("/libs/Fonts/iranyekanwebblack.woff") format("woff");
 }
 
+@media (min-width: 895px) {
+    .navbar-expand-sm {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
 body {
     /* background-image: url('/img/Pattern.svg '); */
     font-family: 'iranyekan', tahoma, Arial;
@@ -33,9 +40,10 @@ h5 {
     margin-top: 20px;
 }
 
-.form-control {
+.Searchbox {
     border: none;
-    padding-right: 25px;
+    width: 130px;
+    border-color: #000;
 }
 
 .show {

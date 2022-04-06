@@ -33,7 +33,7 @@
 
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top navbarDetails">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbarDetails">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,61 +56,63 @@
                         <a class="nav-link" href="https://tvedc.ir/faq.aspx">سوالات متداول</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2 " type="search" placeholder="جستجو کنید..." aria-label="Search">
-                    <a href="/IndexEn.html" target="_self">
-                        <button class="btn btn-success ChangeLNG" role="button">سروش</button>
-                    </a>
-                    <button type="button" class="btn btn-success ChangeLNG" data-bs-toggle="modal" data-bs-target="#LoginForm">ورود</button>
-                    <a href="/IndexEn.html" target="_self">
-                        <button class="btn btn-success ChangeLNG" role="button">EN</button>
-                    </a>
-                </form>
-                <!-- LoginForm -->
-                <!-- Modal -->
-                <div class="modal fade" id="LoginForm">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
 
-                            <div class="modal-body">
-                                <div class="LoginModal">
-                                    <input class="Logininput" type="checkbox" id="chk" aria-hidden="true">
-                                    <input class="Logininput" type="checkbox" id="chk_register" aria-hidden="true">
-                                    <div class="signin">
-                                        <form autocomplete="on">
-                                            <label class="Loginlabel" for="chk" aria-hidden="true">وارد شوید</label>
-                                            <input class="Logininput" type="text" name="txt" placeholder="نام کاربری" required="">
-                                            <input class="Logininput" type="password" name="pswd" placeholder="کلمه عبور" required="">
-                                            <button class="Loginbutton">ورود</button>
-                                        </form>
-                                    </div>
-                                    <div class="ForgetPass">
-                                        <form>
-                                            <label class="Loginlabel" for="chk" aria-hidden="true">فراموشی رمز
-                                                عبور</label>
-                                            <input class="Logininput" type="tel" id="phone" name="phone" placeholder="تلفن همراه" pattern="[0]{1}[9]{1}[0-9]{9}" required>
-                                            <button class="Loginbutton">ارسال رمز</button>
-                                        </form>
-                                    </div>
-                                    <div class="Signup">
-                                        <form>
-                                            <label class="Loginlabel" for="chk_register" aria-hidden="true">ثبت
-                                                نام</label>
-                                            <input class="Logininput" type="number" name="Melli" placeholder="شناسه ملی" required="a">
-                                            <input class="Logininput" type="number" name="Melli" placeholder="کد اقتصادی" required="a">
-                                            <button class="Loginbutton">ثبت نام اولیه</button>
-                                        </form>
-                                    </div>
+            </div>
 
-                                </div>
-                            </div>
+            <form class="d-flex">
+                <input class="form-control me-2 Searchbox" type="search" placeholder="جستجو کنید" aria-label="Search">
+                <a href="/IndexEn.html" target="_self">
+                    <button class="btn btn-success ChangeLNG" role="button">سروش</button>
+                </a>
+                <button type="button" class="btn btn-success ChangeLNG" data-bs-toggle="modal" data-bs-target="#LoginForm">ورود</button>
+                <a href="/IndexEn.html" target="_self">
+                    <button class="btn btn-success ChangeLNG" role="button">EN</button>
+                </a>
+            </form>
+
+        </div>
+    </nav>
+    <!-- LoginForm -->
+    <!-- Modal -->
+    <div class="modal fade" id="LoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="LoginModal">
+                        <input class="Logininput" type="checkbox" id="chk" aria-hidden="true">
+                        <input class="Logininput" type="checkbox" id="chk_register" aria-hidden="true">
+                        <div class="signin">
+                            <form autocomplete="on">
+                                <label class="Loginlabel" for="chk" aria-hidden="true">وارد شوید</label>
+                                <input class="Logininput" type="text" name="txt" placeholder="نام کاربری" required="">
+                                <input class="Logininput" type="password" name="pswd" placeholder="کلمه عبور" required="">
+                                <button class="Loginbutton">ورود</button>
+                            </form>
                         </div>
+                        <div class="ForgetPass">
+                            <form>
+                                <label class="Loginlabel" for="chk" aria-hidden="true">فراموشی رمز
+                                    عبور</label>
+                                <input class="Logininput" type="tel" id="phone" name="phone" placeholder="تلفن همراه" pattern="[0]{1}[9]{1}[0-9]{9}" required>
+                                <button class="Loginbutton">ارسال رمز</button>
+                            </form>
+                        </div>
+                        <div class="Signup">
+                            <form>
+                                <label class="Loginlabel" for="chk_register" aria-hidden="true">ثبت
+                                    نام</label>
+                                <input class="Logininput" type="number" name="Melli" placeholder="شناسه ملی" required="a">
+                                <input class="Logininput" type="number" name="Melli" placeholder="کد اقتصادی" required="a">
+                                <button class="Loginbutton">ثبت نام اولیه</button>
+                            </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
-
+    </div>
     <!-- Header -->
     <div class="container-fluid FitNav">
         <header>
@@ -341,12 +343,12 @@
                         <div class="Notif1">
                             <!-- Tabs Section -->
                             <div class="tab ">
-                                <button class="tablinks" onclick="openCity(event, 'Notif01')">اطلاعیه ها</button>
+                                <button class="tablinks active" onclick="openCity(event, 'Notif01')">اطلاعیه ها</button>
                                 <button class="tablinks" onclick="openCity(event, 'Notif02')">مناقصات</button>
                                 <button class="tablinks" onclick="openCity(event, 'Notif03')">مزایدات</button>
                                 <button class="tablinks" onclick="openCity(event, 'Notif04')">فراخوان</button>
                             </div>
-                            <div id="Notif01" class="tabcontent">
+                            <div id="Notif01" class="tabcontent active" style="display: block;">
                                 <h3>اطلاعیه</h3>
                                 <p>لیست</p>
                             </div>
@@ -370,11 +372,11 @@
                         <div class="Notif2">
                             <!-- Tabs Section -->
                             <div class="tab ">
-                                <button class="tablinks" onclick="openCity(event, 'Notif05')">درگاه آماری</button>
+                                <button class="tablinks active" onclick="openCity(event, 'Notif05')">درگاه آماری</button>
                                 <button class="tablinks" onclick="openCity(event, 'Notif06')">مدیریت مصرف</button>
                                 <button class="tablinks" onclick="openCity(event, 'Notif07')">تحقیق و پژوهش</button>
                             </div>
-                            <div id="Notif05" class="tabcontent">
+                            <div id="Notif05" class="tabcontent active" style="display: block;">
                                 <h3>درگاه آماری</h3>
                                 <p>لیست</p>
                             </div>
@@ -483,12 +485,7 @@
                         <h5>آلبوم تصاویر</h5>
                     </div>
                 </div>
-                <div class="item SlideBtn1 ">
-                    <div>
-                        <img class="Slideiconimg" width="100px" src="/img/IconsMenu/Slider Button/commiteFaniBazargani.svg" alt="">
-                        <h5>کمیته فنی بازرگانی</h5>
-                    </div>
-                </div>
+
                 <div class="item SlideBtn1 ">
                     <div>
                         <img class="Slideiconimg" width="100px" src="/img/IconsMenu/Slider Button/eathing.svg" alt="">
