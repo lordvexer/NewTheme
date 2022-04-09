@@ -93,10 +93,21 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2 SearchBox" type="search" placeholder="Search  " aria-label="Search">
-                    <button type="button" class="btn btn-success ChangeLNG" data-bs-toggle="modal" data-bs-target="#LoginForm">Login </button>
-                    <a href="/index.html"><button class="btn btn-success ChangeLNG">فارسی </button></a>
+                <form class="d-flex  ">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="جستجو کنید..." />
+                            <button class="search-icon ChangeLNG" onclick="searchToggle(this, event);"><span></span></button>
+                        </div>
+                        <!-- <span class="close" onclick="searchToggle(this, event);"></span> -->
+                    </div>
+                    <a href="/IndexEn.html" target="_self">
+                        <button class="btn btn-success ChangeLNG " role="button">Social</button>
+                    </a>
+                    <button type="button" class="btn btn-success ChangeLNG" data-bs-toggle="modal" data-bs-target="#LoginForm">Login</button>
+                    <a href="/Index.html" target="_self">
+                        <button class="btn btn-success ChangeLNG" role="button">فارسی</button>
+                    </a>
                 </form>
                 <!-- LoginForm -->
                 <!-- Modal -->
@@ -475,7 +486,7 @@
                                     <div class="overlay"></div>
                                     <img class="Sideiconimg" width="100px" src="/img/IconsMenu/KhadamateDolat.svg"
                                         alt="">
-                                    <p class="BtnText ">Management of government services</p>
+                                    <p class="BtnText ">Management of services</p>
                                 </a>
                             </div>
                             <div class="col-xl-6 col-md-3 col-sm-3 col-6 d-lg-none d-xl-block">
