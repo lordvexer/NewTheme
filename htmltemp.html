@@ -90,7 +90,18 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2 SearchBox" type="search" placeholder="جستجو کنید..." aria-label="Search">
+
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="جستجو کنید..." />
+                            <button class="search-icon ChangeLNG" onclick="searchToggle(this, event);"><span></span></button>
+                        </div>
+                        <!-- <span class="close" onclick="searchToggle(this, event);"></span> -->
+                    </div>
+                    <!-- <input class="form-control me-2 SearchBox" type="search" placeholder="جستجو کنید..." aria-label="Search"> -->
+                    <a href="/IndexEn.html" target="_self">
+                        <button class="btn btn-success ChangeLNG " role="button">سروش</button>
+                    </a>
                     <button type="button" class="btn btn-success ChangeLNG" data-bs-toggle="modal" data-bs-target="#LoginForm">ورود</button>
                     <a href="/IndexEn.html" target="_self">
                         <button class="btn btn-success ChangeLNG" role="button">EN</button>
@@ -131,7 +142,6 @@
                                             <button class="Loginbutton">ثبت نام اولیه</button>
                                         </form>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -222,10 +232,13 @@
     <!-- Slider And Icons -->
     <div class="container-fluid">
         <section class="SliderAndIcones" style="height: 600px;">
-            Style height for test added
+            <div class="container-fluid">
+                <section class="TempBase">
+                    Style height for test added
+                </section>
+            </div>
         </section>
     </div>
-
     <!-- Footer -->
     <div class="container-fluid">
         <section class="footerbg">
