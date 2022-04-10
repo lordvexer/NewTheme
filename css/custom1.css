@@ -405,6 +405,15 @@
             z-index: 1;
         }
         
+        .TempBase {
+            height: 500px;
+            background: white;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 10px;
+            z-index: 1;
+        }
+        
         .carousel-caption {
             bottom: 0.25rem;
             right: -1%;
