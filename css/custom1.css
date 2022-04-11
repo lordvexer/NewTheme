@@ -9,6 +9,7 @@
         body {
             /* background-image: url('/img/Pattern.svg '); */
             font-family: 'iranyekan', tahoma, Arial;
+            -webkit-font-smoothing: antialiased;
         }
         
         header {
@@ -414,6 +415,16 @@
             z-index: 1;
         }
         
+        .SiteMap {
+            height: 50px;
+            background: white;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 14px;
+            z-index: 1;
+            color: #5a5a5a;
+        }
+        
         .carousel-caption {
             bottom: 0.25rem;
             right: -1%;
@@ -498,7 +509,7 @@
         
         .Tablefix {
             height: 500px;
-            overflow-y: scroll;
+            overflow-y: auto;
         }
         
         .Tablefix thead th {
